@@ -1,3 +1,10 @@
+$(function () {
+  $(document).scroll(function () {
+    let $nav = $("#navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
+
 // buat mode
 var icon = document.getElementById("mode");
 icon.onclick = function () {

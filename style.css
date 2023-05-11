@@ -16,6 +16,9 @@
   width: 25px;
   cursor: pointer;
 }
+.navbar.scrolled {
+  background-color: #3d7ab4;
+}
 
 section {
   background: var(--primary-color);
