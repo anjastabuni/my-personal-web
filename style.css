@@ -4,6 +4,20 @@
   color: black;
 }
 
-#home .descripsi {
-  font-family: "Quicksand" sans-serif;
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+.dark-thema {
+  --primary-color: black;
+  --secondary-color: white;
+}
+#mode {
+  width: 25px;
+  cursor: pointer;
+}
+
+section {
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
