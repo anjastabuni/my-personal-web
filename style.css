@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@300;500&family=Candal&family=Lora&family=Montagu+Slab:wght@200;400&family=Montserrat+Subrayada&family=Montserrat:wght@200;500;700&family=Orbitron:wght@500&family=Patrick+Hand&family=Poppins:wght@300;600&family=Quicksand:wght@300&display=swap");
+* {
+  font-family: "orbitron" sans-serif;
+  color: black;
+}
+
+#home .descripsi {
+  font-family: "Quicksand" sans-serif;
+}
