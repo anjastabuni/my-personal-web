@@ -30,14 +30,10 @@
     <!-- HEADER -->
     <header>
         <?php
-        $a = 0;
-        while ($a <= 1) {
-            if (isset($_GET['1']) && $_GET['1'] == '') {
-                include('content/');
-            }
-            $a++;
-        }
 
+        if (isset($_GET['detail']) && $_GET['detail'] == '') {
+            include('content/negeriku.php');
+        }
         ?>
 
     </header>

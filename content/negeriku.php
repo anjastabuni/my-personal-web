@@ -10,7 +10,7 @@
         ?>
             <div class="card-body">
                 <h5 class="pt-4 my-2">
-                    <a href="?<?= $data['id_detail']; ?>" class="fw-bolder text-dark text-decoration-none"><?= $data['judul'] ?> </a>
+                    <a href="#" class="fw-bolder text-dark text-decoration-none"><?= $data['judul'] ?> </a>
                 </h5>
                 <p class="fs-5">?<?= $data['detail'] ?></p>
                 <p class="text-muted fs-6"><i class="fa-solid fa-user"></i> <?= $data['nm_post']; ?></p>
