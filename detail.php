@@ -14,15 +14,30 @@
     <script src="https://kit.fontawesome.com/355acdeb36.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            padding-top: 90px;
+            padding-bottom: 20px;
+            background-image: url("images/bg-header.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
     <!-- HEADER -->
     <header>
         <?php
-        if (isset($_GET['detail']) && $_GET['detail'] == '') {
-            include('content/negeriku.php');
+        $a = 0;
+        while ($a <= 1) {
+            if (isset($_GET['1']) && $_GET['1'] == '') {
+                include('content/');
+            }
+            $a++;
         }
+
         ?>
 
     </header>

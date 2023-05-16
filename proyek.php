@@ -38,8 +38,8 @@
             <div class="col-sm-5 col-12 ">
               <h5 class="pt-4 my-2">
                 <a href="#" class="fw-bolder text-dark text-decoration-none"><?= $data['judul'] ?> </a>
-                <a href="#" class="text-dark text-decoration-none"><i class="fa-brands fa-github fs-5"></i></a>
-                <a href="#" class="text-dark text-decoration-none"><i class="fa-solid fa-link"></i></a>
+                <a href="#" class="text-dark text-decoration-none" onclick="githuplink()"><i class="fa-brands fa-github fs-5"></i></a>
+                <a href="#" class="text-dark text-decoration-none" onclick="opensitus()"><i class="fa-solid fa-link"></i></a>
               </h5>
               <p class="fs-5"><?= $data['deskripsi'] ?></p>
             </div>
@@ -61,7 +61,7 @@
   <!-- link jqury -->
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <!-- js -->
-  <script src="control.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

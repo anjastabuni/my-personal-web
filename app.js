@@ -19,3 +19,9 @@ icon.onclick = function () {
 function github() {
   window.location.href = "https://github.com/anjastabuni";
 }
+function githuplink() {
+  window.location.href = "https://github.com/anjastabuni/anjastabuni.github.io";
+}
+function opensitus() {
+  window.location.href = "https://anjastabuni.github.io/";
+}
